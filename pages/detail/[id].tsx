@@ -33,7 +33,7 @@ const Detail = ({ postDetails }: IProps) => {
       videoRef.current.muted = isVideoMuted;
     }
 
-  }, [isVideoMuted]);
+  }, [isVideoMuted, post]);
 
   const onVideoClick = () => {
     if (playing) {
